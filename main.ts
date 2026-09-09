@@ -44,11 +44,11 @@ input.onSound(DetectedSound.Loud, function () {
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
-        # . # . #
-        # . # # .
-        # # # # .
-        . . . . #
-        # # # # #
+        # . # . .
+        # . # . .
+        # # # . .
+        . . . . .
+        . . . . .
         `)
     music.play(music.stringPlayable("G F G A - F E D ", 120), music.PlaybackMode.UntilDone)
 })
